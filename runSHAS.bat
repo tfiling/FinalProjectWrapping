@@ -1,3 +1,3 @@
 CD SHAS
-start javaw -jar ..\start.jar
+start java -jar ..\start.jar
 @pause
