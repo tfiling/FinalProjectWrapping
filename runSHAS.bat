@@ -2,7 +2,7 @@
 CD SHAS
 start "SHAS" java -jar ..\start.jar
 timeout 5
-start http://localhost:8888/FinalProject-1.0-SNAPSHOT/
+start http://localhost:8888/SHAS/
 :loop
 echo.
 echo *************************************************************
