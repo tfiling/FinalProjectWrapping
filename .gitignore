@@ -3,3 +3,6 @@ SHAS/reports/*
 SHAS/log/*
 
 SHAS/webapps/builds/*
+
+SHAS/APDescription.txt
+SHAS/MTPs-Main-Container.txt
