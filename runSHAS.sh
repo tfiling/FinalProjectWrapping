@@ -18,7 +18,7 @@ gnome-terminal --disable-factory -x "bash" -c "java -jar ../start.jar" &
 pid=$!
 url=http://localhost:8888/SHAS/
 alive=1
-sleep 5
+sleep 10
 xdg-open $url
 while [ $alive -eq 1 ]; 
 do

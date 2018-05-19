@@ -1,7 +1,7 @@
 @echo off
 CD SHAS
 start "SHAS" java -jar ..\start.jar
-timeout 5
+timeout 10
 start http://localhost:8888/SHAS/
 :loop
 echo.
@@ -21,7 +21,7 @@ goto loop
 
 
 :openBrowser
-start http://localhost:8888/FinalProject-1.0-SNAPSHOT/
+start http://localhost:8888/SHAS/
 goto loop
 
 :killApp
